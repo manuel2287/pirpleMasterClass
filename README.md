@@ -1,20 +1,25 @@
 
-#Homework Assignment 1#
-####Updated: 1/4/2019###
+#Homework Assignment 1
+
+####Updated: 1/4/2019
 
 This is the first of several homework assignments you'll receive in this course. In order to receive your certificate of completion (at the end of this course you must complete all the assignments and receive a passing grade. 
 
-##Hello Api##
+##Hello Api
+
 Clone repository and run the node command in the terminal:
 ```
 node index
 ```
-###To set up https server first you will need to run the next command under api/servers/secure, to generate the key.pem and cert.pem ###
+
+###To set up https server first you will need to run the next command under api/servers/secure, to generate the key.pem and cert.pem
+
 ```
 openssl  req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
 ```
 
-###You should see the message that the server is running:###
+###You should see the message that the server is running:
+
 ```
 HTTP server initialized in staging mode
 The HTTP server is listening on port 3000 now
